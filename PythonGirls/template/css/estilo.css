@@ -1,0 +1,191 @@
+/*=========
+== GERAL ==
+===========*/
+a:hover{
+  text-decoration: none;
+  color: #EC268F;
+}
+a{
+  transform: translateZ(0px);
+  transition-duration: 0.5s;
+  transition-property: color;
+}
+
+.underlinerosa{border-bottom: 1px solid #EC268F;}
+.underlinebranca{border-bottom: 1px solid #FFF;}
+
+.corbranca{color: #FFF;}
+.corrosa{color: #EC268F;}
+.corazul{color: #2e6997;}
+.corcinzaclaro{color: #777777;}
+/* == LATO REGULAR == */
+@font-face {
+  font-family: 'latoregular';
+  src: url('lato-regular-webfont.eot');
+  src: url('lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('lato-regular-webfont.woff2') format('woff2'),
+  url('lato-regular-webfont.woff') format('woff'),
+  url('lato-regular-webfont.ttf') format('truetype'),
+  url('lato-regular-webfont.svg#latoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/* == LATO LIGHT == */
+@font-face {
+  font-family: 'latolight';
+  src: url('lato-light-webfont.eot');
+  src: url('lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('lato-light-webfont.woff2') format('woff2'),
+  url('lato-light-webfont.woff') format('woff'),
+  url('lato-light-webfont.ttf') format('truetype'),
+  url('lato-light-webfont.svg#latolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{font-family: 'latoregular' !important;}
+.text-uppercase{text-transform: uppercase;}
+.capitalize{text-transform: capitalize !important;}
+.bold{font-weight: bold;}
+.latolight{font-family: 'latolight'; }
+/*=============
+== CABEÇALHO ==
+==============*/
+
+/* == SOCIAL == */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.redes-sociais{
+  font-size: 200%;
+  padding-top: 15px;
+}
+.redes-sociais li a,.redes-sociais li a:visited{
+  color:#666666 ;
+}
+.redes-sociais li a:hover{
+  color: #EC268F;
+}
+
+.btn-busca:hover, .btn-busca:focus, .btn-busca:active {
+  color: #333;
+
+}
+.btn-busca {
+  transform: translateZ(0px);
+  transition-duration: 0.5s;
+  transition-property: color;
+}
+.btn-busca {
+  color: #EC268F;
+  background-color: transparent;
+  border-color: none;
+  font-size: 30px;
+  margin: -10px;
+}
+
+/* == MENU == */
+
+.navbar-default {
+  background-color: #EC268F;
+  border-color: rgba(212, 35, 126, 0.98);
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #FFF !important;
+  color: #FFF !important;
+}
+
+.hvr-shutter-out-vertical {background: none;}
+
+.hvr-shutter-out-vertical::before {
+  background: #FFF none repeat scroll 0% 0%;
+}
+
+.hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
+  color: #EC268F !important;
+}
+
+/*===========
+== SECTION ==
+=============*/
+#wowslider-container1 {
+  max-width: 100%;
+  border: none;
+  border-top: 2px solid #FFF;
+  z-index: 0;
+}
+.post-home{
+  border-bottom: 2px #e2e2e2 dashed;
+  margin-bottom: 20px;
+}
+.img-home{
+  padding-left: 0px;
+  padding-bottom: 15px;
+  margin: auto -15px;
+}
+.corcinzaclaro a:hover{color: #2e6997 !important;}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #EC268F;
+  border-color: transparent;
+}
+.pagination > li > a, .pagination > li > span {
+  color: #EC268F;
+  background-color: #ffecff;
+  margin-left: 1px;
+  border: 1px solid transparent;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+  color: #EC268F;
+  background-color: #FFF;
+  border-color: #EC268F;
+}
+
+.col{
+  min-height: 1115px;
+  background: #ffecff;
+}
+
+
+.pd-categorias{
+  padding: 5px 30px;
+}
+.title-aside{margin-bottom: 0; text-transform: capitalize; font-weight: bold;}
+.ul-aside{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ul-aside li{
+  margin: 5px 0;
+}
+
+.mg-aside{margin-top: 20px;}
+/*==========
+== FOOTER ==
+===========*/
+.footer{background-color: #EC268F; color: #FFF; font-size: 14px;}
+.img-foot{padding: auto 1px;}
+.title-foot{margin-bottom: 0; text-transform: uppercase; color: #FFF}
+.foot a:hover{color: #ffacff;}
+
+.foot{margin-top: 20px;}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
