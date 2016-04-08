@@ -18,4 +18,13 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    (r'^$', 'PythonGirls.blog.views.index'),
+    url(
+        r'^blog/view/(?P<slug>[^\.]+).html',
+        'PythonGirls.blog.views.view_post',
+        name='view_blog_post'),
+    url(
+        r'^blog/category/(?P<slug>[^\.]+).html',
+        'PythonGirls.blog.views.view_category',
+        name='view_blog_category'),
 ]
